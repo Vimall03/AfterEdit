@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+}
+.topbar{
+    padding-top: 12px;
+}
+.d-flex {
+    padding-left: 15%;
+    padding-right: 15%;
+    background: transparent ;
+        /* Green background with 30% opacity rgba(0, 0, 0, 0.25)  */
+}
+
+.logo {
+    font-family: 'aBeeZee', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    /* color: black; */
+    padding-left: 8px;
+}
+
+
+
+.footer{
+    background-color: #f1f1f1;
+}
+
+/* css for table */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.search{
+  
+  top:6px;
+  left:10px;
+}
+
+.form-control{
+    
+    border:none;
+    padding-left:32px;
+}
+
+.form-control:focus{
+    
+    border:none;
+    box-shadow:none;
+}
+
+.green{
+    
+    color:green;
+}

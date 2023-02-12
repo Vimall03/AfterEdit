@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'aBeeZee', sans-serif;
+
+}
+
+.topbar {
+    padding-top: 12px;
+}
+
+.navele {
+    margin-left: 15%;
+    margin-right: 15%;
+    /*make padding 0 to make it responsive*/
+    background: white;
+    /* Green background with 30% opacity rgba(255, 255, 255, 0.25)  */
+}
+
+.logo {
+    font-family: 'aBeeZee', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-left: 8px;
+}
+
+.hov a:hover {
+    font-weight: 900;
+}
+
+.col-md-3 {
+    display: flex;
+}
+
+.banner {
+    background: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.avif);
+    /*  linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), */
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.intro {
+    font-family: 'aBeeZee', sans-serif;
+    position: absolute;
+    top: 350px;
+    left: 35px;
+}
+
+.intro h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    width: 75%;
+
+}
+
+.intro h2 {
+    font-weight: bolder;
+    font-size: 40px;
+    color: black;
+}
+
+.gtstrd {
+    position: absolute;
+    left: 40px;
+}
+
+.row {
+    justify-content: center;
+    align-items: center;
+}
+
+.abt {
+    font-family: 'aBeeZee', sans-serif;
+}
+
+.footer {
+    background-color: #f1f1f1;
+}
+
+.p-3 {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.cntnt {
+    margin: 0 15% 0 15%;
+}
+.img1 {
+    background-image: url('https://i.pinimg.com/564x/bd/97/37/bd97370eea04c4e5b76c8173226f67a5.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+}
+
+.htxt1 {
+    margin: 100% 0 0 0;
+    position: relative;
+    color: white;
+    transition: color 2s ease-out 100ms;
+}
+.onimg1{
+    height: 30rem;
+    background-color: black;
+    transition: background-color 1.5s ease-out 100ms;
+
+
+}
+.onimg1:hover{
+    background-color:transparent;
+
+}
+.img1:hover.img1 h3{
+    color: transparent;
+
+}
+
+
+
+/* 2 */
+.img2 {
+    background-image: url('https://mymodernmet.com/wp/wp-content/uploads/2018/07/photo-manipulation-photography-lilia-alvarado-13.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+}
+
+.htxt2 {
+    margin: 100% 0 0 0;
+    position: relative;
+    color: white;
+    transition: color 2s ease-out 100ms;
+}
+.onimg2 {
+    height: 30rem;
+    background-color: black;
+    transition: background-color 1.5s ease-out 100ms;
+
+
+}
+.onimg2:hover{
+    background-color:transparent;
+
+}
+.img2:hover.img2 h3{
+    color: transparent;
+
+}
+
+/*  3*/
+.img3 {
+    background-image: url('https://i.pinimg.com/564x/66/15/a9/6615a950d3e4680d139baf4c65354360.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+}
+
+.htxt3 {
+    margin: 100% 0 0 0;
+    position: relative;
+    color: white;
+    transition: color 2s ease-out 100ms;
+}
+.onimg3{
+    height: 30rem;
+    background-color: black;
+    transition: background-color 1.5s ease-out 100ms;
+
+
+}
+.onimg3:hover{
+    background-color:transparent;
+
+}
+.img3:hover.img3 h3{
+    color: transparent;
+
+}

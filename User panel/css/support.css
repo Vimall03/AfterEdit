@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'aBeeZee', sans-serif;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+}
+.topbar{
+    padding-top: 12px;
+}
+.d-flex {
+    padding-left: 15%;
+    padding-right: 15%;
+    background: transparent ;
+        /* Green background with 30% opacity rgba(255, 255, 255, 0.25)  */
+}
+
+.logo {
+    font-family: 'aBeeZee', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-left: 8px;
+}
+
+.col-md-3 {
+    display: flex;
+}
+
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.text-center {
+    text-align: center!important;
+}
+.desc{
+    text-decoration: none;
+    color: black;
+}
+.col-lg-7 {
+    padding: 0 0 30px;
+}
+.lglogo{
+    justify-content: center;
+    display: flex;
+    margin: 0 0 24px ;
+    font-family: 'aBeeZee', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    background-color: #f1f1f1;
+}
+.p-3{
+    background-color: rgba(0, 0, 0, 0.0);
+}
