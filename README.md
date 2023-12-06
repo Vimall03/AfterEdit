@@ -1,7 +1,7 @@
 # After Edit
 
 ## Visit Site  
-Test mode - https://afteredittest.000webhostapp.com
+Test mode - https://afteredittest.000webhostapp.com/
 
 ## Introduction
 After Edit is a website where users can upload their photos, provide details about the desired edit, and receive a professionally edited version of their photo. The website is built using HTML, CSS, PHP, and JavaScript and makes use of the Bootstrap framework. Email verification is implemented using a unique code sent to the user's email. The website also features a Razor Pay gateway for secure payments and uses PHP My Admin and MySQL for database management.
